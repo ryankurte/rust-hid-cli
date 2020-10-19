@@ -1,0 +1,18 @@
+[package]
+name = "hid-cli"
+description = "Simple CLI for reading and writing to HID reports"
+repository = "https://github.com/ryankurte/rust-hid-cli"
+version = "0.1.0"
+authors = ["ryan <ryan@kurte.nz>"]
+edition = "2018"
+license = "MPL-2.0"
+
+
+[dependencies]
+hidapi = "1.2.3"
+log = "0.4.11"
+structopt = "0.3.20"
+simplelog = "0.8.0"
+anyhow = "1.0.33"
+hex = "0.4.2"
+
