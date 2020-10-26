@@ -4,10 +4,10 @@ use log::{info, error};
 use simplelog::{TermLogger, LevelFilter, TerminalMode};
 use structopt::StructOpt;
 
-use hid_pal::*;
+use hid_cli::*;
 
 #[derive(StructOpt)]
-#[structopt(name = "hidpal", about = "USB HID device helper")]
+#[structopt(name = "hidcli", about = "USB HID device helper")]
 struct Options {
     #[structopt(subcommand)]
     command: Command,
